@@ -9,42 +9,41 @@ namespace Bank_Heist_5
         {
             List<IRobber> rolodex = new List<IRobber>();
 
-            var drew = new Hacker()
+            var Drew = new Hacker()
             {
                 Name = "Drew",
                 SkillLevel = 40,
                 PercentageCut = 20
             };
 
-            var Steve = new Hacker()
+            var Fred = new Hacker()
             {
-                Name = "Steve",
+                Name = "Fred",
                 SkillLevel = 40,
                 PercentageCut = 20
             };
 
-            var Shady = new Muscle()
+            var Wilson = new Muscle()
             {
-                Name = "Shady",
+                Name = "Wilson",
                 SkillLevel = 40,
                 PercentageCut = 20
             };
 
-            var drPhilipew = new LockSpecialist()
+            var Van = new LockSpecialist()
             {
-                Name = "Philip",
+                Name = "Van",
                 SkillLevel = 40,
                 PercentageCut = 20
             };
 
-            var Tyler = new Muscle()
+            var Sylvian = new Muscle()
             {
-                Name = "Tyler",
+                Name = "Sylvian",
                 SkillLevel = 40,
                 PercentageCut = 20
             };
         }
-
 
     }
 }
