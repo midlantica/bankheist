@@ -6,7 +6,9 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/.gitignore": true,
-    ".gitignore": true
+    ".gitignore": true,
+    "**/.vscode": true,
+    ".vscode": true
   },
   "explorerExclude.backup": null
 }
